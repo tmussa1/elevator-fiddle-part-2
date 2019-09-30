@@ -27,6 +27,11 @@ public class Building {
 	public Building() {
 		// TODO: create an elevator
 		createFloors();
+		createElevator();
+	}
+
+	private void createElevator() {
+		this.elevator = new Elevator(floors);
 	}
 
 	public void enter() {
@@ -38,6 +43,9 @@ public class Building {
 	 */
 	private void createFloors(){
 		//TODO: Implement
+		for(int i = 0; i < TOTAL_NUM_OF_FLOORS; i++){
+			this.floors[i] = new Floor(i);
+		}
 	}
 
 	public Floor getFloor(int floorNumber) {
@@ -46,13 +54,13 @@ public class Building {
 
 	public Elevator getElevator() {
 		// TODO:
-		return null;
+		return elevator;
 
 	}
 
 	public Floor[] getFloors(){
 		// TODO:
-		return null;
+		return floors;
 	}
 
 

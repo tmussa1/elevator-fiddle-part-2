@@ -28,7 +28,7 @@ public class Resident extends Person implements Passenger {
 	 */
 	public int getDestination() {
 		//TODO: return the destination of this Resident as a Passenger
-		return 0;
+		return destinationFloor;
 	}
 
 
@@ -37,6 +37,7 @@ public class Resident extends Person implements Passenger {
 	 */
 	public void setDestination(int destinationFloor) {
 		//TODO: set the destination floor
+		this.destinationFloor = destinationFloor;
 	}
 
 }
