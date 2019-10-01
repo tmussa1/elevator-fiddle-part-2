@@ -18,6 +18,7 @@ public class Resident extends Person implements Passenger {
 	}
 
 	public void enterApartment(int apartmentId) {
+
 	}
 
 

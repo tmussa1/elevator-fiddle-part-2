@@ -2,12 +2,12 @@ package cscie55.hw2.impl;
 
 public class Building {
 
-	/*
+	/**
 	The ID variable is static final and represents building ID
 	 */
 	public static final int ID = 1;
 
-	/*
+	/**
 	The TOTAL_NUM_OF_FLOORS variable is static final.
 	 */
 	public static final int TOTAL_NUM_OF_FLOORS= 7;
@@ -15,7 +15,7 @@ public class Building {
 	private Elevator elevator;
 
 	/**
-	 * 
+	 * This is all the floors in the building
 	 * 
 	 */
 	private Floor[] floors = new Floor[TOTAL_NUM_OF_FLOORS];

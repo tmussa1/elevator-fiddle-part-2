@@ -19,6 +19,9 @@ public class Floor {
 
 	}
 
+	/**
+	 * Creates apartment upon initialization
+	 */
 	private void createApartments() {
 		for(int i = 0; i < apartments.length; i++){
 			apartments[i] = new Apartment(i , this.id);
@@ -29,9 +32,10 @@ public class Floor {
 		return passengersWaiting;
 	}
 
-	/*
-	Needed to make this method public to set the number of Passengers waiting on a floor after
-	Elevator is full
+	/**
+	 * @param passengersWaiting
+	 * Needed to make this method public to set the number of Passengers waiting on a floor after
+	 * Elevator is full
 	 */
 	public void setPassengersWaiting(int passengersWaiting) {
 		this.passengersWaiting = passengersWaiting;
@@ -41,6 +45,12 @@ public class Floor {
 		setPassengersWaiting(getPassengersWaiting() + 1);
 	}
 
+	/**
+	 *
+	 * @param apartmentNumber
+	 * @return Apartment
+	 * returns apartments within the bounds
+	 */
 	public Apartment getApartment(int apartmentNumber) {
 		if(apartmentNumber < apartments.length){
 			return apartments[apartmentNumber];

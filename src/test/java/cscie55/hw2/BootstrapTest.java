@@ -33,8 +33,8 @@ public class BootstrapTest extends Bootstrap {
     @Test
     public void testElevatorToString() {
         Elevator elevator = building.getElevator();
-        //TODO: impl toString() method so it returns state of elevator
-        assertEquals("",elevator.toString());
+        assertEquals("Elevator is currently at " + 1 +
+                " and going " + "UP",elevator.toString());
     }
     // Don't board any passengers. Just check that the elevator moves up and down correctly.
     @Test
