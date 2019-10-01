@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a1c14bf-a206-4544-a681-1eec6f7f7173" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" afterDir="false" />
-    </list>
+    <list default="true" id="0a1c14bf-a206-4544-a681-1eec6f7f7173" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2396">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4510#4511#0" expanded="true" />
@@ -32,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1247">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
@@ -62,11 +60,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,9 +102,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/exception/ElevatorFullException.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" />
         <option value="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" />
       </list>
     </option>
   </component>
@@ -143,6 +145,11 @@
               <item name="building" type="b2602c69:ProjectViewProjectNode" />
               <item name="mussa_tofik_hw_2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="building" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mussa_tofik_hw_2" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BootstrapTest">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cscie55.hw2.Bootstrap" />
       <module name="building" />
@@ -252,29 +259,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BootstrapTest.testLoadUnload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="building" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cscie55.hw2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cscie55.hw2" />
-      <option name="MAIN_CLASS_NAME" value="cscie55.hw2.BootstrapTest" />
-      <option name="METHOD_NAME" value="testLoadUnload" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -291,6 +275,7 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/building/documentation/index.html" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -315,18 +300,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BootstrapTest" />
-      <item itemvalue="JUnit.BootstrapTest.testLoadUnload" />
       <item itemvalue="JUnit.BootstrapTest.testElevatorMotion" />
       <item itemvalue="JUnit.BootstrapTest.elevatorFull" />
       <item itemvalue="Application.Bootstrap" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JUnit.BootstrapTest" />
         <item itemvalue="Application.Bootstrap" />
         <item itemvalue="JUnit.BootstrapTest.elevatorFull" />
         <item itemvalue="JUnit.BootstrapTest.testElevatorMotion" />
-        <item itemvalue="JUnit.BootstrapTest.testLoadUnload" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +325,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569792466020</updated>
-      <workItem from="1569792469917" duration="19450000" />
+      <workItem from="1569792469917" duration="19763000" />
     </task>
     <servers />
   </component>
@@ -377,7 +362,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19450000" />
+    <option name="totallyTimeSpent" value="19763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -391,12 +376,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2488189" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2488189" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.38740158" />
+      <window_info anchor="bottom" id="Terminal" weight="0.38740158" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36749634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36749634" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -452,14 +437,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="32" />
     </breakpoint-manager>
   </component>
@@ -610,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -634,7 +604,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2396">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4510#4511#0" expanded="true" />
@@ -647,10 +617,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1247">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
