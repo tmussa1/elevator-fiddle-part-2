@@ -18,7 +18,7 @@ public class Elevator {
 	 */
 	private int incrementForEveryFloorTravelled = 1;
 
-	/*
+	/**
 	 * This field tracks direction. It is "UP" when starting out
 	 */
 	private direction upOrDown;
