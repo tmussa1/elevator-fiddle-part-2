@@ -111,6 +111,13 @@ public class Elevator {
 		if(getCurrentFloor() == 1 && this.upOrDown == direction.DOWN){
 			resetAllPassengersThatBoardedFromOtherFloors();
 			this.upOrDown = direction.UP;
+
+			/**
+			 * We can be sure that the passenger getting dropped off has got in from the first floor
+			 * so we can safely decrement down up to the first floor. One can argue about the passenger
+			 * who got in some other floor will contribute to the difference but that difference has been added
+			 * to the FLOORS[0] (first floor) already
+			 */
 		} else if(this.upOrDown == direction.UP){
 			int passengersWhoLeft = -(FLOORS[getCurrentFloor()] - FLOORS[getCurrentFloor() - 1]);
 			resetPassengersWhoLeft(passengersWhoLeft);

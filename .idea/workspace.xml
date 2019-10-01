@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a1c14bf-a206-4544-a681-1eec6f7f7173" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cscie55/hw2/Bootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cscie55/hw2/Bootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Elevator.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +14,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Elevator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Elevator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
+            <state relative-caret-position="256">
+              <caret line="117" column="105" selection-start-line="117" selection-start-column="105" selection-end-line="117" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4082#4083#0" expanded="true" />
-                <element signature="e#4108#4109#0" expanded="true" />
-                <element signature="e#4155#4156#0" expanded="true" />
-                <element signature="e#4190#4191#0" expanded="true" />
-                <element signature="e#4336#4337#0" expanded="true" />
-                <element signature="e#4379#4380#0" expanded="true" />
+                <element signature="e#4510#4511#0" expanded="true" />
+                <element signature="e#4536#4537#0" expanded="true" />
+                <element signature="e#4583#4584#0" expanded="true" />
+                <element signature="e#4618#4619#0" expanded="true" />
+                <element signature="e#4791#4792#0" expanded="true" />
+                <element signature="e#4834#4835#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootstrapTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BootstrapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
@@ -72,6 +67,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rese</find>
+      <find>tost</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" />
         <option value="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" />
       </list>
     </option>
   </component>
@@ -382,17 +378,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569792466020</updated>
-      <workItem from="1569792469917" duration="18422000" />
+      <workItem from="1569792469917" duration="18894000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BootstrapTest - 2019.09.30 at 21h 23m 48s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.30 at 21h 23m 56s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BootstrapTest - 2019.09.30 at 21h 26m 41s.xml">
       <configuration name="BootstrapTest" configurationId="JUnit" />
     </history-entry>
@@ -417,9 +407,15 @@
     <history-entry file="BootstrapTest - 2019.09.30 at 21h 40m 02s.xml">
       <configuration name="BootstrapTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.30 at 21h 48m 43s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.30 at 21h 51m 59s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18422000" />
+    <option name="totallyTimeSpent" value="18894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -434,19 +430,19 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2503937" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2488189" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.38740158" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.38740158" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36749634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36749634" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.18740158" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18740158" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -674,26 +670,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4082#4083#0" expanded="true" />
-            <element signature="e#4108#4109#0" expanded="true" />
-            <element signature="e#4155#4156#0" expanded="true" />
-            <element signature="e#4190#4191#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="117" column="105" selection-start-line="117" selection-start-column="105" selection-end-line="117" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4510#4511#0" expanded="true" />
+            <element signature="e#4536#4537#0" expanded="true" />
+            <element signature="e#4583#4584#0" expanded="true" />
+            <element signature="e#4618#4619#0" expanded="true" />
+            <element signature="e#4791#4792#0" expanded="true" />
+            <element signature="e#4834#4835#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
