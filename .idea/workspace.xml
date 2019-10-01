@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0a1c14bf-a206-4544-a681-1eec6f7f7173" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building.iml" beforeDir="false" afterPath="$PROJECT_DIR$/building.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cscie55/hw2/exception/ElevatorFullException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cscie55/hw2/exception/ElevatorFullException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Elevator$direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Elevator$direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cscie55/hw2/Bootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cscie55/hw2/Bootstrap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Elevator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Floor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cscie55/hw2/impl/Floor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Elevator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Elevator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="41" column="121" selection-start-line="41" selection-start-column="121" selection-end-line="41" selection-end-column="121" />
+            <state relative-caret-position="312">
+              <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4082#4083#0" expanded="true" />
@@ -40,78 +37,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Apartment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Apartment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Passenger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/api/Passenger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/api/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Building.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-291">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Floor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="93">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resident.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Resident.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,17 +52,17 @@
       <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="251">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootstrapTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BootstrapTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+            <state relative-caret-position="196">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -154,8 +86,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/exception/ElevatorFullException.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" />
       </list>
     </option>
   </component>
@@ -278,6 +211,17 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.BootstrapTest">
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cscie55.hw2.Bootstrap" />
+      <module name="building" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cscie55.hw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -416,10 +360,12 @@
       <item itemvalue="JUnit.BootstrapTest.testLoadUnload" />
       <item itemvalue="JUnit.BootstrapTest.testElevatorMotion" />
       <item itemvalue="JUnit.BootstrapTest.elevatorFull" />
+      <item itemvalue="Application.Bootstrap" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BootstrapTest" />
+        <item itemvalue="Application.Bootstrap" />
         <item itemvalue="JUnit.BootstrapTest.elevatorFull" />
         <item itemvalue="JUnit.BootstrapTest.testElevatorMotion" />
         <item itemvalue="JUnit.BootstrapTest.testLoadUnload" />
@@ -436,26 +382,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569792466020</updated>
-      <workItem from="1569792469917" duration="17695000" />
+      <workItem from="1569792469917" duration="18422000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BootstrapTest_elevatorFull - 2019.09.30 at 21h 21m 27s.xml">
-      <configuration name="BootstrapTest.elevatorFull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.30 at 21h 21m 33s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.30 at 21h 22m 21s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.30 at 21h 23m 06s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.30 at 21h 23m 33s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BootstrapTest - 2019.09.30 at 21h 23m 48s.xml">
       <configuration name="BootstrapTest" configurationId="JUnit" />
     </history-entry>
@@ -471,9 +402,24 @@
     <history-entry file="BootstrapTest - 2019.09.30 at 21h 26m 59s.xml">
       <configuration name="BootstrapTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.30 at 21h 37m 34s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.30 at 21h 38m 53s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest_elevatorFull - 2019.09.30 at 21h 39m 33s.xml">
+      <configuration name="BootstrapTest.elevatorFull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest_elevatorFull - 2019.09.30 at 21h 39m 57s.xml">
+      <configuration name="BootstrapTest.elevatorFull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.30 at 21h 40m 02s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17695000" />
+    <option name="totallyTimeSpent" value="18422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -488,19 +434,19 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32440946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2503937" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.14173229" />
+      <window_info anchor="bottom" id="Terminal" weight="0.38740158" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26573938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36749634" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16062993" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.18740158" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -514,10 +460,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.42519686" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.25669292" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26573938" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26573938" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -527,10 +473,10 @@
       <window_info id="Designer" order="1" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.21574803" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.16062993" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.38740158" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="4" />
@@ -551,13 +497,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java</url>
-          <line>109</line>
+          <url>file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -638,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="127" column="114" selection-start-line="127" selection-start-column="114" selection-end-line="127" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/exception/ElevatorFullException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -667,13 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -720,30 +652,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="93">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+        <state relative-caret-position="50">
+          <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="41" column="121" selection-start-line="41" selection-start-column="121" selection-end-line="41" selection-end-column="121" />
+        <state relative-caret-position="312">
+          <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4082#4083#0" expanded="true" />
@@ -753,6 +687,13 @@
             <element signature="e#4336#4337#0" expanded="true" />
             <element signature="e#4379#4380#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
         </state>
       </provider>
     </entry>

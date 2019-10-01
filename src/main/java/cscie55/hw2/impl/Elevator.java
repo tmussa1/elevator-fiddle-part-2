@@ -161,6 +161,6 @@ public class Elevator {
 	@Override
 	public String toString() {
 		return "Elevator is currently at " + currentFloor +
-				" and going " + upOrDown.toString() + " current passengers are " + getNumberPassengers();
+				" and going " + upOrDown.toString();
 	}
 }

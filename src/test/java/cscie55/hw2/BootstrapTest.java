@@ -34,7 +34,7 @@ public class BootstrapTest extends Bootstrap {
     public void testElevatorToString() {
         Elevator elevator = building.getElevator();
         assertEquals("Elevator is currently at " + 1 +
-                " and going " + "UP" + " current passengers are " + 0,elevator.toString());
+                " and going " + "UP",elevator.toString());
     }
     // Don't board any passengers. Just check that the elevator moves up and down correctly.
     @Test
