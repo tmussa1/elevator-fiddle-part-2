@@ -2,7 +2,9 @@ package cscie55.hw2.impl;
 
 import cscie55.hw2.api.Passenger;
 import cscie55.hw2.exception.ElevatorFullException;
+/*
 
+ */
 public class Elevator {
 
 	private int[] FLOORS = new int[Building.TOTAL_NUM_OF_FLOORS];
@@ -18,16 +20,14 @@ public class Elevator {
 		this.upOrDown = direction.UP;
 	}
 	public void move() {
-		// TODO: as in HW 1, the elevator moves up, dropping passengers along the way
 
 		this.incrementForEveryFloorTravelled++;
 
-		if((CAPACITY - getNumberPassengers()) >= passWaitingArray[getCurrentFloor()].getPassengersWaiting()){
-			FLOORS[0] += passWaitingArray[getCurrentFloor()].getPassengersWaiting();
+		if((CAPACITY - getNumberPassengers()) >= passWaitingArray[getCurrentFloor() - 1].getPassengersWaiting()){
+			FLOORS[0] += passWaitingArray[getCurrentFloor() - 1].getPassengersWaiting();
 		} else {
 			FLOORS[0] += (CAPACITY - getNumberPassengers());
-			System.out.println("PAss "+ passWaitingArray[getCurrentFloor()].getPassengersWaiting());
-			int passengersLeftOut= (passWaitingArray[getCurrentFloor()].getPassengersWaiting() + getNumberPassengers()) - CAPACITY;
+			int passengersLeftOut= (passWaitingArray[getCurrentFloor() - 1].getPassengersWaiting() + getNumberPassengers()) - CAPACITY;
 			passWaitingArray[getCurrentFloor()].setPassengersWaiting(passengersLeftOut);
 		}
 
@@ -44,7 +44,6 @@ public class Elevator {
 	}
 
 	public void boardPassenger(int destination) throws ElevatorFullException {
-		//TODO: create method to allow an integer to increment the destination floor
 
 		if(getNumberPassengers() + 1 > CAPACITY){
 			throw new ElevatorFullException("Elevator is at capacity");
@@ -62,7 +61,6 @@ public class Elevator {
 	}
 
 	public void boardPassenger(Passenger passenger) throws ElevatorFullException {
-		//TODO: overloaded method: get destination of passenger and add it to num destined to that floor
 
 		if(getNumberPassengers() + 1 > CAPACITY){
 			throw new ElevatorFullException("Elevator is at capacity");
@@ -72,12 +70,11 @@ public class Elevator {
 	}
 
 	private void unloadPassengers() {
-		//TODO: remove passengers destined for the floor at this stop
 
 		if(getCurrentFloor() == 1 && this.upOrDown == direction.DOWN){
 			resetAllPassengersThatBoardedFromOtherFloors();
 			this.upOrDown = direction.UP;
-		} else {
+		} else if(this.upOrDown == direction.UP){
 			int passengersWhoLeft = -(FLOORS[getCurrentFloor()] - FLOORS[getCurrentFloor() - 1]);
 			resetPassengersWhoLeft(passengersWhoLeft);
 		}
@@ -104,24 +101,20 @@ public class Elevator {
 	}
 
 	public int getCurrentFloor() {
-		//TODO: impl... replace the 0 with the value of the currentFloor
 		return currentFloor;
 	}
 
 	private void setCurrentFloor(int floorNum) {
-		// TODO: Optional. might be handy. Delete if you don't want it
 		this.currentFloor = floorNum;
 	}
 
-	public String toString() {
-		String s ="";
-		// TODO: impl toString()
-		return s;
-	}
-
 	public int getNumberPassengers() {
-		//TODO: store number [or sum up number] of passengers and return
 		return FLOORS[getCurrentFloor() - 1];
 	}
 
+	@Override
+	public String toString() {
+		return "Elevator is currently at " + currentFloor +
+				" and going " + upOrDown.toString();
+	}
 }

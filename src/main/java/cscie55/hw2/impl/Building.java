@@ -3,12 +3,12 @@ package cscie55.hw2.impl;
 public class Building {
 
 	/*
-	The ID variable is static final. We will not have more than one building.
+	The ID variable is static final and represents building ID
 	 */
 	public static final int ID = 1;
 
 	/*
-	The TOTAL_NUM_OF_FLOORS variable is static final. We will not add any more stories.
+	The TOTAL_NUM_OF_FLOORS variable is static final.
 	 */
 	public static final int TOTAL_NUM_OF_FLOORS= 7;
 
@@ -22,10 +22,9 @@ public class Building {
 
 
 	/**
-	 * This constructor must create an Elevator, Floors
+	 * This constructor creates an Elevator, Floors
 	 */
 	public Building() {
-		// TODO: create an elevator
 		createFloors();
 		createElevator();
 	}
@@ -35,14 +34,12 @@ public class Building {
 	}
 
 	public void enter() {
-	    // for future Assignment
 	}
 
 	/**
 	 * this method must create floor objects and add them to the appropriate index of the floors array
 	 */
 	private void createFloors(){
-		//TODO: Implement
 		for(int i = 0; i < TOTAL_NUM_OF_FLOORS; i++){
 			this.floors[i] = new Floor(i);
 		}
@@ -53,13 +50,11 @@ public class Building {
 	}
 
 	public Elevator getElevator() {
-		// TODO:
 		return elevator;
 
 	}
 
 	public Floor[] getFloors(){
-		// TODO:
 		return floors;
 	}
 

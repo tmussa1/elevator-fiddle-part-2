@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a1c14bf-a206-4544-a681-1eec6f7f7173" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/building.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/exception/ElevatorFullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/exception/ElevatorFullException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Resident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Resident.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +18,8 @@
       <file leaf-file-name="Elevator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="80" column="154" selection-start-line="80" selection-start-column="154" selection-end-line="80" selection-end-column="154" />
+            <state relative-caret-position="87">
+              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -38,7 +27,7 @@
       <file leaf-file-name="Floor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="75">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -47,8 +36,8 @@
       <file leaf-file-name="BootstrapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
+            <state relative-caret-position="271">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
@@ -211,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BootstrapTest">
+  <component name="RunManager" selected="JUnit.BootstrapTest.elevatorFull">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -353,8 +342,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BootstrapTest" />
         <item itemvalue="JUnit.BootstrapTest.elevatorFull" />
+        <item itemvalue="JUnit.BootstrapTest" />
         <item itemvalue="JUnit.BootstrapTest.testElevatorMotion" />
         <item itemvalue="JUnit.BootstrapTest.testLoadUnload" />
       </list>
@@ -370,44 +359,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569792466020</updated>
-      <workItem from="1569792469917" duration="12296000" />
+      <workItem from="1569792469917" duration="13465000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BootstrapTest - 2019.09.29 at 20h 18m 45s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.29 at 20h 19m 42s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest_testElevatorMotion - 2019.09.29 at 20h 26m 37s.xml">
-      <configuration name="BootstrapTest.testElevatorMotion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest_testElevatorMotion - 2019.09.29 at 20h 26m 41s.xml">
-      <configuration name="BootstrapTest.testElevatorMotion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.29 at 20h 26m 55s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.29 at 20h 33m 00s.xml">
-      <configuration name="BootstrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BootstrapTest_elevatorFull - 2019.09.29 at 20h 39m 56s.xml">
+    <history-entry file="BootstrapTest_elevatorFull - 2019.09.29 at 21h 03m 35s.xml">
       <configuration name="BootstrapTest.elevatorFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.29 at 20h 41m 32s.xml">
+    <history-entry file="BootstrapTest_elevatorFull - 2019.09.29 at 21h 03m 42s.xml">
+      <configuration name="BootstrapTest.elevatorFull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.29 at 21h 03m 47s.xml">
       <configuration name="BootstrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BootstrapTest - 2019.09.29 at 20h 49m 05s.xml">
+    <history-entry file="BootstrapTest - 2019.09.29 at 21h 04m 38s.xml">
       <configuration name="BootstrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BootstrapTest_elevatorFull - 2019.09.29 at 21h 03m 35s.xml">
+    <history-entry file="BootstrapTest - 2019.09.29 at 21h 05m 52s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.29 at 21h 06m 02s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.29 at 21h 06m 18s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.29 at 21h 06m 34s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest - 2019.09.30 at 20h 16m 10s.xml">
+      <configuration name="BootstrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BootstrapTest_elevatorFull - 2019.09.30 at 20h 24m 43s.xml">
       <configuration name="BootstrapTest.elevatorFull" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12296000" />
+    <option name="totallyTimeSpent" value="13465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -422,9 +411,9 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42519686" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36692914" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32913387" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26573938" />
@@ -434,7 +423,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.21574803" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4503937" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -448,10 +437,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.2992126" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.42519686" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18008785" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26573938" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -461,7 +450,7 @@
       <window_info id="Designer" order="1" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4488189" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.21574803" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -497,7 +486,7 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -641,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -657,15 +639,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        <state relative-caret-position="271">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="80" column="154" selection-start-line="80" selection-start-column="154" selection-end-line="80" selection-end-column="154" />
+        <state relative-caret-position="87">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
         </state>
       </provider>
     </entry>
