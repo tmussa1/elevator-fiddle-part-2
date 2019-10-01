@@ -25,3 +25,5 @@ is working on getting you the flexibility to go anywhere
 
 Thanks for looking at our elevator
 
+**For documentation, please checkout index.html under documentation folder and open it with your browser**
+
