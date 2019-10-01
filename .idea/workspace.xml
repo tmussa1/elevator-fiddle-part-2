@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a1c14bf-a206-4544-a681-1eec6f7f7173" name="Default" comment="" />
+    <list default="true" id="0a1c14bf-a206-4544-a681-1eec6f7f7173" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -73,11 +86,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="300">
+                <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BootstrapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="47">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -88,6 +113,7 @@
     <findStrings>
       <find>rese</find>
       <find>tost</find>
+      <find>elevatorfu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,9 +128,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/exception/ElevatorFullException.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Floor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Elevator.java" />
         <option value="$PROJECT_DIR$/src/main/java/cscie55/hw2/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -144,11 +171,6 @@
             <path>
               <item name="building" type="b2602c69:ProjectViewProjectNode" />
               <item name="mussa_tofik_hw_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="building" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mussa_tofik_hw_2" type="462c0819:PsiDirectoryNode" />
-              <item name="documentation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +347,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569792466020</updated>
-      <workItem from="1569792469917" duration="19763000" />
+      <workItem from="1569792469917" duration="20917000" />
     </task>
     <servers />
   </component>
@@ -362,7 +384,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19763000" />
+    <option name="totallyTimeSpent" value="20917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -376,12 +398,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2488189" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2488189" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.38740158" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.38740158" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36749634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36749634" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -587,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cscie55/hw2/impl/Building.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -635,6 +650,23 @@
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cscie55/hw2/BootstrapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="300">
+            <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
