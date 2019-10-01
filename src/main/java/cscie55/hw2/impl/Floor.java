@@ -16,7 +16,6 @@ public class Floor {
 	public Floor(int id){
 		this.id = id;
 		createApartments();
-
 	}
 
 	/**

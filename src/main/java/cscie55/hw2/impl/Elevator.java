@@ -38,13 +38,14 @@ public class Elevator {
 		this.incrementForEveryFloorTravelled++;
 
 		/**
-		Pick up passengers destined to the first floor
+		Pick up passengers destined to the first floor. The thing here is for passengers that got left trying to board
+		 from a floor other than the first floor will still be in the passWaitingArray and get picked up in the next trip
 		 */
 		if((CAPACITY - getNumberPassengers()) >= passWaitingArray[getCurrentFloor() - 1].getPassengersWaiting()){
 			FLOORS[0] += passWaitingArray[getCurrentFloor() - 1].getPassengersWaiting();
 		} else {
-			FLOORS[0] += (CAPACITY - getNumberPassengers());
-			int passengersLeftOut= (passWaitingArray[getCurrentFloor() - 1].getPassengersWaiting() + getNumberPassengers()) - CAPACITY;
+			FLOORS[0] = CAPACITY;
+			int passengersLeftOut= passWaitingArray[getCurrentFloor()].getPassengersWaiting() - CAPACITY;
 			passWaitingArray[getCurrentFloor()].setPassengersWaiting(passengersLeftOut);
 		}
 
@@ -160,6 +161,6 @@ public class Elevator {
 	@Override
 	public String toString() {
 		return "Elevator is currently at " + currentFloor +
-				" and going " + upOrDown.toString();
+				" and going " + upOrDown.toString() + " current passengers are " + getNumberPassengers();
 	}
 }
